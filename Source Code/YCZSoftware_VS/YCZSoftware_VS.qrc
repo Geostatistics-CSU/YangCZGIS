@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/YCZSoftware_VS">
+        <file>qt/etc/qt.conf</file>
+    </qresource>
+</RCC>

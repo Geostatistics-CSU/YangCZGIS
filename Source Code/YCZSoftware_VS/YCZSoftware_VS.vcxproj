@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+***************************************************************************************************
+ Copyright (C) 2023 The Qt Company Ltd.
+ SPDX-License-Identifier: LicenseRef-Qt-Commercial OR LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+***************************************************************************************************
+-->
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1D920B6E-8FD0-476F-BBAF-A7765277460E}</ProjectGuid>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">10.0</WindowsTargetPlatformVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="QtSettings">
+    <QtInstall>5.12.6_msvc2017_64</QtInstall>
+    <QtModules>core;gui;widgets</QtModules>
+    <QtBuildConfig>debug</QtBuildConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="QtSettings">
+    <QtInstall>5.14.2_msvc2017_64</QtInstall>
+    <QtModules>core;xml;opengl;gui;svg;widgets;openglextensions</QtModules>
+    <QtBuildConfig>release</QtBuildConfig>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(OSGEO_HOME)\apps\qgis-ltr-dev\include;$(OSGEO_HOME)\include;.\resource\lib\json\include;.\resource\lib\osgQt\include;..\x64\Release\python\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USE_MATH_DEFINES</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(OSGEO_HOME)\apps\qgis-ltr-dev\lib;.\resource\lib\json;.\resource\lib\osgQt\lib;..\x64\Release\python\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>qgis_app.lib;qgis_core.lib;qgis_gui.lib;jsoncpp.lib;osg.lib;osgViewer.lib;osgDB.lib;OpenThreads.lib;osgGA.lib;osgEarth.lib;osgAnimation.lib;osgFX.lib;osgManipulator.lib;osgParticle.lib;osgShadow.lib;osgSim.lib;osgTerrain.lib;osgText.lib;osgUtil.lib;osgQOpenGL.lib;python39.lib;python3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(OSGEO_HOME)\apps\qgis-rel-dev\include;$(OSGEO_HOME)\include;.\resource\lib\json\include;.\resource\lib\osgQt\include;..\x64\Release\python\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_USE_MATH_DEFINES;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(OSGEO_HOME)\apps\qgis-rel-dev\lib;.\resource\lib\json;..\x64\Release\python\libs;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>qgis_app.lib;qgis_core.lib;qgis_gui.lib;jsoncpp.lib;python39.lib;python3.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'" Label="Configuration">
+    <ClCompile>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <QtRcc Include="YCZSoftware_VS.qrc" />
+    <QtUic Include="MainWindow.ui" />
+    <QtUic Include="src\service\abnormalgpsdialog.ui" />
+    <QtUic Include="src\service\aboutsoftdialog.ui" />
+    <QtUic Include="src\service\amoebagservicedialog.ui" />
+    <QtUic Include="src\service\boxplotdialog.ui" />
+    <QtUic Include="src\service\Canvas3DService.ui" />
+    <QtUic Include="src\service\coanalysisdialog.ui" />
+    <QtUic Include="src\service\ColorGradientWidget.ui" />
+    <QtUic Include="src\service\coordinateproject.ui" />
+    <QtUic Include="src\service\coyangczservicedialog.ui" />
+    <QtUic Include="src\service\CubeDialog.ui" />
+    <QtUic Include="src\service\layerpropform.ui" />
+    <QtUic Include="src\service\reservesestimatesdialog.ui" />
+    <QtUic Include="src\service\gyangczservicedialog.ui" />
+    <QtUic Include="src\service\histogramdialog.ui" />
+    <QtUic Include="src\service\htmscanservicedialog.ui" />
+    <QtUic Include="src\service\inverselogdialog.ui" />
+    <QtUic Include="src\service\LoadingXYZDataDialog.ui" />
+    <QtUic Include="src\service\logtransdialog.ui" />
+    <QtUic Include="src\service\Lyr3DSelectDialog.ui" />
+    <QtUic Include="src\service\MainWindow3D.ui" />
+    <QtUic Include="src\service\oyangczservicedialog.ui" />
+    <QtUic Include="src\service\oyczfilterservicedialog.ui" />
+    <QtUic Include="src\service\qqplotdialog.ui" />
+    <QtUic Include="src\service\sqldialog.ui" />
+    <QtUic Include="src\service\styangczservicedialog.ui" />
+    <QtUic Include="src\service\yangczfservicedialog.ui" />
+    <QtUic Include="src\service\yangczfxydialog.ui" />
+    <QtUic Include="src\service\YCZFilterServiceDialog.ui" />
+    <QtUic Include="src\service\yczprogressdialog.ui" />
+    <QtUic Include="YCZSoftware_VS.ui" />
+    <QtMoc Include="YCZSoftware_VS.h" />
+    <ClCompile Include="LayerMenuProvider.cpp" />
+    <ClCompile Include="MainWindow.cpp" />
+    <ClCompile Include="Project.cpp" />
+    <ClCompile Include="src\entity\Entity3D.cpp" />
+    <ClCompile Include="src\service\abnormalgpsdialog.cpp" />
+    <ClCompile Include="src\service\aboutsoftdialog.cpp" />
+    <ClCompile Include="src\service\AmoebaGPyThread.cpp" />
+    <ClCompile Include="src\service\amoebagservicedialog.cpp" />
+    <ClCompile Include="src\service\AmountPyThread.cpp" />
+    <ClCompile Include="src\service\boxplotdialog.cpp" />
+    <ClCompile Include="src\service\BoxPlotDraw.cpp" />
+    <ClCompile Include="src\service\Canvas3DService.cpp" />
+    <ClCompile Include="src\service\coanalysisdialog.cpp" />
+    <ClCompile Include="src\service\ColorGradientPreview.cpp" />
+    <ClCompile Include="src\service\ColorGradientWidget.cpp" />
+    <ClCompile Include="src\service\ColorLegendWidget.cpp" />
+    <ClCompile Include="src\service\ColorWidget.cpp" />
+    <ClCompile Include="src\service\coordinateproject.cpp" />
+    <ClCompile Include="src\service\CorrelationMatrixWidget.cpp" />
+    <ClCompile Include="src\service\CoYangCZPyThread.cpp" />
+    <ClCompile Include="src\service\coyangczservicedialog.cpp" />
+    <ClCompile Include="src\service\CubeDialog.cpp" />
+    <ClCompile Include="src\service\reservesestimatesdialog.cpp" />
+    <ClCompile Include="src\service\FileLoadingService.cpp" />
+    <ClCompile Include="src\service\GYangCZPyThread.cpp" />
+    <ClCompile Include="src\service\gyangczservicedialog.cpp" />
+    <ClCompile Include="src\service\histogramdialog.cpp" />
+    <ClCompile Include="src\service\HistogramView.cpp" />
+    <ClCompile Include="src\service\HTMSCANPyThread.cpp" />
+    <ClCompile Include="src\service\htmscanservicedialog.cpp" />
+    <ClCompile Include="src\service\inverselogdialog.cpp" />
+    <ClCompile Include="src\service\layerpropform.cpp" />
+    <ClCompile Include="src\service\LoadingXYZDataDialog.cpp" />
+    <ClCompile Include="src\service\logtransdialog.cpp" />
+    <ClCompile Include="src\service\Lyr3DSelectDialog.cpp" />
+    <ClCompile Include="src\service\MainWindow3D.cpp" />
+    <ClCompile Include="src\service\oyangczservicedialog.cpp" />
+    <ClCompile Include="src\service\oyczfilterservicedialog.cpp" />
+    <ClCompile Include="src\service\qqplotdialog.cpp" />
+    <ClCompile Include="src\service\QQPlotDraw.cpp" />
+    <ClCompile Include="src\service\RunPyService.cpp" />
+    <ClCompile Include="src\service\sqldialog.cpp" />
+    <ClCompile Include="src\service\STYangCZPyThread.cpp" />
+    <ClCompile Include="src\service\styangczservicedialog.cpp" />
+    <ClCompile Include="src\service\YangCZFPyThread.cpp" />
+    <ClCompile Include="src\service\yangczfservicedialog.cpp" />
+    <ClCompile Include="src\service\yangczfxydialog.cpp" />
+    <ClCompile Include="src\service\YangCZFXYPyThread.cpp" />
+    <ClCompile Include="src\service\YangCZPyThread.cpp" />
+    <ClCompile Include="src\service\YCZFilterPyThread.cpp" />
+    <ClCompile Include="src\service\YCZFilterPyThread2D.cpp" />
+    <ClCompile Include="src\service\YCZFilterServiceDialog.cpp" />
+    <ClCompile Include="src\service\yczprogressdialog.cpp" />
+    <ClCompile Include="YCZSoftware_VS.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="MainWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config\config.json" />
+    <None Include="qt\etc\qt.conf" />
+    <None Include="resource\shader\gl.frag" />
+    <None Include="resource\shader\gl.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\service\reservesestimatesdialog.h" />
+    <QtMoc Include="src\service\YangCZFXYPyThread.h" />
+    <QtMoc Include="src\service\yangczfxydialog.h" />
+    <QtMoc Include="src\service\coordinateproject.h" />
+    <QtMoc Include="src\service\abnormalgpsdialog.h" />
+    <ClInclude Include="src\service\AmoebaGPyThread.h" />
+    <QtMoc Include="src\service\AmountPyThread.h" />
+    <QtMoc Include="src\service\coyangczservicedialog.h" />
+    <QtMoc Include="src\service\ColorLegendWidget.h" />
+    <ClInclude Include="src\service\HTMSCANPyThread.h" />
+    <QtMoc Include="src\service\htmscanservicedialog.h" />
+    <QtMoc Include="src\service\styangczservicedialog.h" />
+    <QtMoc Include="src\service\STYangCZPyThread.h" />
+    <QtMoc Include="src\service\GYangCZPyThread.h" />
+    <QtMoc Include="src\service\gyangczservicedialog.h" />
+    <QtMoc Include="src\service\yangczfservicedialog.h" />
+    <QtMoc Include="src\service\YangCZFPyThread.h" />
+    <QtMoc Include="src\service\YangCZPyThread.h" />
+    <QtMoc Include="src\service\oyangczservicedialog.h" />
+    <QtMoc Include="src\service\inverselogdialog.h" />
+    <QtMoc Include="src\service\logtransdialog.h" />
+    <QtMoc Include="src\service\qqplotdialog.h" />
+    <QtMoc Include="src\service\QQPlotDraw.h" />
+    <QtMoc Include="src\service\HistogramView.h" />
+    <QtMoc Include="src\service\histogramdialog.h" />
+    <QtMoc Include="src\service\yczprogressdialog.h" />
+    <QtMoc Include="src\service\oyczfilterservicedialog.h" />
+    <QtMoc Include="src\service\YCZFilterPyThread2D.h" />
+    <QtMoc Include="src\service\YCZFilterServiceDialog.h" />
+    <QtMoc Include="src\service\YCZFilterPyThread.h" />
+    <QtMoc Include="src\service\RunPyService.h" />
+    <QtMoc Include="src\service\sqldialog.h" />
+    <QtMoc Include="src\service\layerpropform.h" />
+    <QtMoc Include="LayerMenuProvider.h" />
+    <QtMoc Include="Project.h" />
+    <ClInclude Include="pythreadstatelock.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="src\entity\Entity3D.h" />
+    <ClInclude Include="src\macro.h" />
+    <QtMoc Include="src\service\aboutsoftdialog.h" />
+    <QtMoc Include="src\service\ColorGradientWidget.h" />
+    <QtMoc Include="src\service\ColorGradientPreview.h" />
+    <QtMoc Include="src\service\ColorWidget.h" />
+    <QtMoc Include="src\service\CubeDialog.h" />
+    <QtMoc Include="src\service\boxplotdialog.h" />
+    <QtMoc Include="src\service\BoxPlotDraw.h" />
+    <QtMoc Include="src\service\coanalysisdialog.h" />
+    <QtMoc Include="src\service\CorrelationMatrixWidget.h" />
+    <QtMoc Include="src\service\amoebagservicedialog.h" />
+    <QtMoc Include="src\service\CoYangCZPyThread.h" />
+    <ClInclude Include="src\service\FileLoadingService.h" />
+    <QtMoc Include="src\service\MainWindow3D.h" />
+    <QtMoc Include="src\service\Lyr3DSelectDialog.h" />
+    <QtMoc Include="src\service\LoadingXYZDataDialog.h" />
+    <QtMoc Include="src\service\Canvas3DService.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="YCZSoftware_VS.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\x64\Release\icon\YangCZ.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

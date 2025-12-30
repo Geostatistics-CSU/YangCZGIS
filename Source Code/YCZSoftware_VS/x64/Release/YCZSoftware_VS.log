@@ -1,0 +1,78 @@
+﻿   Qt/MSBuild: 3.3.1.1
+   Qt: 5.14.2
+  MainWindow.cpp
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgsfield.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgsvectorlayer.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\0-研究生\YangCZ软件\上传Github\YCZSoftware_VS\YCZSoftware_VS\Project.h(12,23): warning C4584: “Project”: 基类“QObject”已是“QgsProject”的基类
+E:\111A_KAI_FA\N_qt\qt5.14.2\5.14.2\msvc2017_64\include\QtWidgets\qgesturerecognizer.h(51,7): message : 参见“QObject”的声明
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgsvectorlayertools.h(28,7): message : 参见“QgsProject”的声明
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\111A_KAI_FA\qgis_\apps\qgis-rel-dev\include\qgis.h(1453,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  YCZSoftware_VS.vcxproj -> E:\0-研究生\YangCZ软件\上传Github\YCZSoftware_VS\x64\Release\YCZSoftware_VS.exe
