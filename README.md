@@ -30,7 +30,7 @@ We provide both an installer and a portable version. You can download the latest
 ### 2. User Manual
 For detailed instructions on operation and algorithms, please refer to the User Guide:
 
-📄 **[View User Guide (PDF)](docs/User_Guide.pdf)**
+📄 **[View User Guide (PDF)](YangCZGIS_User_Guide.pdf)**
 
 ---
 
